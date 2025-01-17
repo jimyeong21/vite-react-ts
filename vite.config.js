@@ -10,4 +10,7 @@ export default defineConfig({
     host: "localhost",
     port: 8080,
   },
+  css: {
+    devSourcemap: true,
+  },
 });
