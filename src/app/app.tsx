@@ -1,7 +1,7 @@
-import "./app.css";
+import Prose from "@/components/prose";
 
-function App(props) {
-  return <div className="App">{props.children}</div>;
+function App() {
+  return <Prose />;
 }
 
 export default App;

@@ -8,9 +8,7 @@ const root = document.getElementById("root");
 if (root) {
   createRoot(root).render(
     <StrictMode>
-      <App>
-        <h1>Hello React</h1>
-      </App>
-    </StrictMode>
+      <App />
+    </StrictMode>,
   );
 }
